@@ -39,8 +39,6 @@ const counter1 = counterBuilder1();
 const counter2 = counterBuilder2();
 const counter3 = counterBuilder3();
 
-console.log(counter1, counter2);
-
 app.append(counter1, counter2, counter3);
 
 // //closure example
