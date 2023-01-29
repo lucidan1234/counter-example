@@ -1,0 +1,21 @@
+.counter-container {
+  border: 1px solid black;
+  width: fit-content;
+  padding: 1rem;
+}
+
+.counter-display {
+  border: 1px solid black;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 0.5rem;
+}
+
+.counter-control :first-child {
+  margin-right: 0.5rem;
+}
+
+.counter-control button {
+  min-width: 2rem;
+}
